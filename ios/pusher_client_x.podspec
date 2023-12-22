@@ -7,7 +7,7 @@ pubspec = YAML.load_file(File.join('..', 'pubspec.yaml'))
 libraryVersion = pubspec['version'].gsub('+', '-')
 
 Pod::Spec.new do |s|
-  s.name             = 'pusher_client'
+  s.name             = 'pusher_client_x'
   s.version          = libraryVersion
   s.summary          = 'A pusher client plugin.'
   s.description      = <<-DESC
